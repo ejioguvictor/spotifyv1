@@ -3,6 +3,9 @@
   justify-content: space-between;
   margin-bottom: 30px;
 }
+.header input:focus {
+  outline: none;
+}
 
 .header_left {
   flex: 0.5;
