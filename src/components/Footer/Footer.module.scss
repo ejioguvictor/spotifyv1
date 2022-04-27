@@ -42,17 +42,17 @@
     align-items: center;
     justify-content: space-between;
   }
-  .footer__icon:hover,
-  .footer__green:hover {
+  .footer_icon:hover,
+  .footer_green:hover {
     transition: transform 0.2s ease-in-out;
     transform: scale(1.2) !important;
   }
 
-  .footer__songInfo > h4 {
+  .footer_songInfo > h4 {
     margin-bottom: 5px;
   }
 
-  .footer__songInfo > p {
+  .footer_songInfo > p {
     font-size: 12px;
   }
 }

@@ -24,7 +24,7 @@ function Footer() {
       <div className={styles["footer_center"]}>
         <ShuffleIcon className={styles["footer_green"]} />
         <SkipPreviousIcon className={styles["footer_icon"]} />
-        <PlayCircleOutlineIcon />
+        <PlayCircleOutlineIcon fontSize="large" className={styles["footer_icon"]} />
         <SkipNextIcon className={styles["footer_icon"]} />
         <RepeatIcon className={styles["footer_green"]} />
       </div>
