@@ -38,7 +38,7 @@ function Footer() {
             <VolumeDownIcon />
           </Grid>
           <Grid item xs>
-            <Slider />
+            <Slider className={styles.slider} />
           </Grid>
         </Grid>
       </div>
