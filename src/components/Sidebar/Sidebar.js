@@ -4,8 +4,14 @@ import SearchIcon from '@mui/icons-material/Search';
 import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
 import SidebarTag from '../SidebarTags/SidebarTag'
 import styles from "./Sidebar.module.scss"
+import { useStateValue } from '../../DataLayer';
+// import { getTokenFromResponse } from "./spotify";
+// import { getTokenFromUrl } from '../../spotify';
 
 function Sidebar() {
+  const [{ playlists }, dispatch] = useStateValue()
+  console.log("nnnnn", playlists)
+
   return (
     <div className={styles.sidebar}>
       <img
@@ -19,8 +25,10 @@ function Sidebar() {
       <br />
       <strong className={styles["sidebar_title"]}>PLAYLISTS </strong>
       <hr />
-
-
+      {/* working on get data from spotify to show playlists */}
+      {playlists?.items?.map((playlist) => (
+        <SidebarTag title={playlist.name} />
+      ))}
     </div>
   )
 }
