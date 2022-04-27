@@ -21,8 +21,13 @@
     flex: 0.3;
     display: flex;
     color: white;
+    align-self: center;
+    width: 300px;
   }
 
+  .footer_green {
+    color: #1ed15e;
+  }
   .footer_albumLogo {
     height: 60px;
     width: 60px;
@@ -36,5 +41,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  .footer__icon:hover,
+  .footer__green:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+  }
+
+  .footer__songInfo > h4 {
+    margin-bottom: 5px;
+  }
+
+  .footer__songInfo > p {
+    font-size: 12px;
   }
 }
