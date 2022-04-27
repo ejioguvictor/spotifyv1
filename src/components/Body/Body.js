@@ -1,10 +1,11 @@
 import React from 'react'
+import Header from '../Header/Header'
 import styles from "./Body.module.scss"
 
 function Body() {
   return (
     <div className={styles.body}>
-      i am the body
+      <Header />
     </div>
   )
 }

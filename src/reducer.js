@@ -4,7 +4,7 @@ export const initialState = {
   playing: false,
   item: null,
   //remove this token after, it persists user login
-  token: "BQCQCmwvU5tAh9WHPsKgWCUAzct5-HloZSJ6uBpxPLB_oYXzbQSoOHGQC4Uw16NSJhqBILKdNPjq7iGgh1iqFz8pFKd6gyGyajnBoEwhrxWyfoKwyCKQQOzgFoKGqlBAzJlMSeUqLHAmsuCvz9wec0RU4hKJ2YWBT6Guz0H4eE4vYYhz_kK3",
+  // token: "BQCQCmwvU5tAh9WHPsKgWCUAzct5-HloZSJ6uBpxPLB_oYXzbQSoOHGQC4Uw16NSJhqBILKdNPjq7iGgh1iqFz8pFKd6gyGyajnBoEwhrxWyfoKwyCKQQOzgFoKGqlBAzJlMSeUqLHAmsuCvz9wec0RU4hKJ2YWBT6Guz0H4eE4vYYhz_kK3",
 
 }
 
