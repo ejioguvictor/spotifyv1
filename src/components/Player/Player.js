@@ -8,14 +8,10 @@ function Player({ spotify }) {
   return (
     <div className={styles.player}>
       <div className={styles["player_body"]}>
-        {/* Sidebar */}
         <Sidebar />
-        {/* Body */}
         <Body spotify={spotify} />
-        {/* <h1>Welcome to spotify dashboard page</h1> */}
       </div>
-
-      <Footer />
+      <Footer spotify={spotify} />
     </div>
   )
 }

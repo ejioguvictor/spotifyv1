@@ -11,7 +11,6 @@ root.render(
     <StateProvider initialState={initialState} reducer={reducer}>
       <App />
     </StateProvider>
-    {/* <App /> */}
   </React.StrictMode>
 );
 

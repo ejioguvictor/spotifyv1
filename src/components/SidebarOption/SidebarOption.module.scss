@@ -1,4 +1,4 @@
-.sidebarTags {
+.SidebarOptions {
   display: flex;
   align-items: center;
   color: grey;
@@ -12,14 +12,14 @@
   margin: 10px auto;
 }
 
-.sidebarTags:hover {
+.SidebarOptions:hover {
   color: white;
 }
-.sidebarTagsIcon {
+.SidebarOptionsIcon {
   padding-left: 10px;
   padding-right: 10px;
 }
-.sidebarTags > p {
+.SidebarOptions > p {
   margin-top: 10px;
   margin-left: 20px;
   font-size: 14px;

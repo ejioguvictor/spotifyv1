@@ -1,22 +1,26 @@
+import { findAllByDisplayValue } from "@testing-library/react";
+
 export const initialState = {
   user: null,
   playlists: [],
-  playing: false,
+  spotify: null,
+  discover_weekly: null,
+  top_artists: null,
+  playing: true,
   item: null,
   //remove this token after, it persists user login
   // token: "BQCQCmwvU5tAh9WHPsKgWCUAzct5-HloZSJ6uBpxPLB_oYXzbQSoOHGQC4Uw16NSJhqBILKdNPjq7iGgh1iqFz8pFKd6gyGyajnBoEwhrxWyfoKwyCKQQOzgFoKGqlBAzJlMSeUqLHAmsuCvz9wec0RU4hKJ2YWBT6Guz0H4eE4vYYhz_kK3",
 
-}
+};
 
 const reducer = (state, action) => {
   console.log(action);
-
   switch (action.type) {
     case "SET_USER":
       return {
         ...state,
         user: action.user,
-      }
+      };
 
     case "SET_PLAYING":
       return {
@@ -62,6 +66,6 @@ const reducer = (state, action) => {
     default:
       return state;
   }
-}
+};
 
 export default reducer;
